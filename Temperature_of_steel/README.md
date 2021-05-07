@@ -12,15 +12,15 @@
 ### Feature selection and feature engineering
 Извлечены значимые признаки, отобраны существующие признаки и удалены лишние признаки по причине выявленной мультиколлинеарности.
 
-![EDA](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/feature_selection.jpg)
+![feature](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/feature_selection.jpg)
 
 ### Обучение и сравнение моделей
 Были обучены различные модели регрессии и сравнены по метрике `МАЕ` кросс-валидацией.
-![EDA](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/model_comparison.jpg)
+![model](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/model_comparison.jpg)
 
 ### Feature importance
 Выявлены признаки не влияющие на целевой признак.
-![EDA](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/feature_importance.jpg)
+![shap](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/feature_importance.jpg)
 
 ### Используемые библиотеки:
 - `numpy`
