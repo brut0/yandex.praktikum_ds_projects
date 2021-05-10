@@ -22,4 +22,5 @@
 - `numpy`
 - `pandas`
 - `sklearn`
+- `CatBoost`
 - `matplotlib`
