@@ -3,7 +3,7 @@
 ### Список проектов:
 | Название | Описание | Инструменты |
 | :---------------------- | :---------------------- | :---------------------- |
-| [Исследование надёжности заёмщиков банка](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Clients%20debt%20analysis) | Обработка и исследование данных для выявления зависимостей на влияющих на платёжеспособность клииента банка. Построена модель кредитного скоринга | `pandas` `pymystem` `ntlk` |
+| [Исследование надёжности заёмщиков банка](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Clients%20debt%20analysis) | Обработка и исследование данных для выявления зависимостей на влияющих на платёжеспособность клииента банка. Построена модель кредитного скоринга. | `pandas` `pymystem` `ntlk` |
 | [Предсказывание коэффициента восстановления золота из золотосодержащей руды](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Gold_recovery) | Анализ и обработка данных. Проанализированы данные с параметрами добычи и очистки руды. Построена и обучена модель, помогающая оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками. | `numpy`  `pandas` `sklearn` `CatBoost` `matplotlib` |
-| [Прогнозирование потребления электроэнергии на этапе обработки стали](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Temperature_of_steel) | Анализ и обработка данных, извлечение значимых для модели признаков. Построена модель предсказания температуры стали | `numpy` `pandas` `sklearn` `catboost` `matplotlib` `seaborn` `shap`
-| [-]() | ...under construction... |
+| [Прогнозирование температуры стали на металлургическом предприятии](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Temperature_of_steel) | Анализ и обработка данных, извлечение значимых для модели признаков. Построена модель предсказания температуры стали. | `numpy` `pandas` `sklearn` `catboost` `matplotlib` `seaborn` `shap`
+| [-]() | ...under construction... | - |

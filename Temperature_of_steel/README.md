@@ -1,26 +1,15 @@
-## Прогнозирование потребления электроэнергии на этапе обработки стали металлургического предприятия
+## Прогнозирование температуры стали на металлургическом предприятии
 
-Необходимо проанализировать данные, обработать данные, извлечь значимые признаки и построить модель, которая предскажет температуру стали, что позволит уменьшить потребление электроэнергии на этапе обработки стали.
-Метрикой качества является `MAE`. 
+Целью проекта являлось построение модели прогноза температуры стали на конечном этапе обработки. Прогнозирование потребления электроэнергии на этапе обработки стали позволит металлургическому комбинату оптимизировать производственные расходы.
+Для оценки качества модели использовалас метрика `MAE`. 
 
-Целевое значение `МАЕ` на тестовых данных **<6.0**
+### Этапы проекта
+1. Исследование и обработка данных
+2. Feature selection and feature engineering
+3. Обучение и сравнение моделей
 
-### Обработка данных и EDA
-Данные были исследованы, очищены от выбросов и объединены в один датафрейм.
-![EDA](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/EDA_temperature.jpg)
-
-### Feature selection and feature engineering
-Извлечены значимые признаки, отобраны существующие признаки и удалены лишние признаки по причине выявленной мультиколлинеарности.
-
-![feature](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/feature_selection.jpg)
-
-### Обучение и сравнение моделей
-Были обучены различные модели регрессии и сравнены по метрике `МАЕ` кросс-валидацией.
-![model](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/model_comparison.jpg)
-
-### Feature importance
-Выявлены признаки не влияющие на целевой признак.
-![shap](https://github.com/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/pics/feature_importance.jpg)
+### Вывод
+ По результатам обучения и сравнения различных моделей лучший результат показали Cat Boost и SVM, имеющие схожие значения метрики качества `МАЕ`. 
 
 ### Используемые библиотеки:
 - `numpy`
@@ -30,3 +19,5 @@
 - `matplotlib`
 - `seaborn`
 - `shap`
+
+__В случае если notebook не отображается на GitHub [смотри тут](https://nbviewer.jupyter.org/github/brut0/yandex.praktikum_ds_projects/blob/main/Temperature_of_steel/steel_temperature_regression.ipynb)__
