@@ -1,6 +1,6 @@
 ## Выполненные проекты за время обучения в Яндекс.Практикум по направлению "Специалист по Data Science"
 
-Проекты расположены в хронолигическом порядке их выполнения
+Проекты расположены в хронолигическом порядке их выполнения.
 
 ### Список проектов:
 | Название | Описание | Инструменты |  Ключевые слова  |
@@ -11,6 +11,7 @@
 | [Анализ рынка компьютерных игр](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Games_analysis) | Анализ данных о продажах компьютерных игр и проверка гипотез. | `pandas` `matplotlib` `scipy` | EDA, statistics, hypotesys testing |
 | [Прогнозирование оттока клиентов банка](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Bank_customer_churn) | Создание модели для предсказания оттока клиентов из банка на основании данных о поведении клиентов. Целью является снижение затрат на сохранение клиентов. | `numpy` `pandas` `matplotlib` `sklearn` `SMOTE` | EDA, analysis, feature engineering, ROC-AUC, upsampling, classification |
 | [Определение региона для бурения новой скважины по прогнозируемой прибыли](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Oil_wells) | Создание модели для прогноза прогнозируемой прибыли от нефтяных скважин. На основании прогноза определения наилучшего региона для бурения | `numpy` `pandas` `matplotlib` `sklearn`  | EDA, analysis, regression, bootstrap, econometrics |
-| [Предсказывание коэффициента восстановления золота из золотосодержащей руды](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Gold_recovery) | Анализ и обработка данных. Проанализированы данные с параметрами добычи и очистки руды. Построена и обучена модель, помогающая оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками. | `numpy`  `pandas` `sklearn` `CatBoost` `matplotlib` `seaborn` `shap` | EDA, regression, custom metric, feature importance |
+| [Предсказывание коэффициента восстановления золота из золотосодержащей руды](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Gold_recovery) | Анализ и обработка данных. Проанализированы данные с параметрами добычи и очистки руды. Построена и обучена модель, помогающая оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками. | `numpy`  `pandas` `sklearn` `CatBoost` `matplotlib` `seaborn` `shap` | EDA, regression,custom metric, feature importance |
+| [Определение рыночной стоимости автомобиля](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Car_price) | Создание модели градиентного бустинга с максимальной точностью и минимальным временем обучения и предсказания цены. Сравнение скорости обучения и предсказания. | `numpy` `pandas` `matplotlib` `sklearn` `CatBoost` `LightGBM` | EDA, analysis, regression, gradient boosting |
 | [Прогнозирование температуры стали на металлургическом предприятии](https://github.com/brut0/yandex.praktikum_ds_projects/tree/main/Temperature_of_steel) | Анализ и обработка данных, извлечение значимых для модели признаков. Построена модель предсказания температуры стали. | `numpy` `pandas` `sklearn` `CatBoost` `matplotlib` `seaborn` `shap` | EDA, feature engineering, feature selection, feature importance, tuning hyperparams |
 | [-]() | ...under construction... | - |
