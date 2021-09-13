@@ -14,5 +14,6 @@
 - `sklearn`
 - `CatBoost`
 - `matplotlib`
+- `shap`
 
 __В случае если notebook не отображается на GitHub [смотри тут](https://nbviewer.jupyter.org/github/brut0/yandex.praktikum_ds_projects/blob/main/Gold_recovery/gold_recovery.ipynb)__

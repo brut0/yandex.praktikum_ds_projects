@@ -6,3 +6,4 @@
 - `pandas`
 - `pymystem3`
 - `ntlk`
+- `matplotlib`

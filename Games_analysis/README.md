@@ -6,3 +6,5 @@
 - `pandas`
 - `matplotlib`
 - `scipy`
+
+__В случае если notebook не отображается на GitHub [смотри тут](https://nbviewer.jupyter.org/github/brut0/yandex.praktikum_ds_projects/blob/main/Games_analysis/gamedev_analysis.ipynb)__
